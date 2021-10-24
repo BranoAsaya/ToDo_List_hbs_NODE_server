@@ -1,0 +1,27 @@
+
+    <div class="container">
+        <h1>Todo list</h1>
+      <div class="list-container">
+        <h1>True list</h1>
+        <ul id="list">
+{{#each secOne}}
+<li class="list-item">{{this.id}}   {{this.name}}   {{this.date}}   {{this.status}}  </li>
+
+{{/each}}
+        </ul>
+      </div>
+</section>
+
+      <div class="list-container">
+<section>
+        <h1>False list</h1>
+        <ul id="list">
+{{#each secTwo}}
+<li class="list-item">{{this.id}}   {{this.name}}   {{this.date}}   {{this.status}}  </li>
+
+{{/each}}
+        </ul>
+</section>        
+      </div>
+
+    </div>
